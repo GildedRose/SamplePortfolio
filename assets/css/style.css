@@ -85,8 +85,6 @@ footer {
   
 }
 
-
-
 /* About Me Style Start*/
 /* section {
     display: grid;
@@ -96,6 +94,18 @@ footer {
 .about-me  {
     display: grid;
     padding: 60px;
+}
+
+/* Contact me Style Start */
+a:link {
+    text-decoration: underline;
+}
+
+a:visited {
+    text-decoration: none;
+}
+]
+    }
 }
 
 /*
