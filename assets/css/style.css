@@ -22,18 +22,22 @@ header {
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--primary-color);
     color: var(--secondary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 header h1 {
     display: inline-block;
     font-size: 48px;
-    background-color: ;
+    font-weight: bold;
+    margin: 0
 }
 
 header nav {
+    display:flex;
     padding-top: 15px;
-    margin-right: 20px;
-    float: right;
+    margin: 7px 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
@@ -61,14 +65,10 @@ footer {
 
 /* Hero Style Start */
 .hero {
-    display: flex;
-    width: 100%;
-    margin-bottom: 50px;
     background-image: url("../images/hero-bg.jpg");
-    background-size: cover;
+    height: 400px;
+    background-size: cover; 
     background-position: center;
-    justify-content: center;
-    flex-wrap: wrap;
 }
 
 .hero h3 {
@@ -78,15 +78,19 @@ footer {
     padding:20px;
     width: 40%;
     margin: 3.5%;
-    position: absolute;
     
 }
 
 /* About Me Style Start*/
-section {
+/* section {
+    display: grid;
+    padding: 60px;
+} */
+
+.about-me  {
+    display: grid;
     padding: 60px;
 }
-
 
 /*
   /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other 
