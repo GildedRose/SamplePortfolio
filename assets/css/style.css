@@ -69,17 +69,23 @@ footer {
     height: 400px;
     background-size: cover; 
     background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.hero h3 {
+.hero-cta h2 {
     font-size: 55px;
     color: var(--tertiary-color);
     border: 3px solid var(--primary-color);
-    padding:20px;
-    width: 40%;
-    margin: 3.5%;
-    
+    padding: 20px;
+    position: absolute;
+    top: 350px;
+   right: 20px;
+  
 }
+
+
 
 /* About Me Style Start*/
 /* section {
