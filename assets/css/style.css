@@ -1,0 +1,113 @@
+:root {
+    --primary-color: #ff8886;
+    --secondary-color: #ffe7e6;
+    --tertiary-color: #ffc586;
+    --bag-color: #ffead3;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--bag-color);
+    font-family: Arial, Helvetica, sans-serif;
+   }
+
+   /* Header Style Start */
+header {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+    background-color: ;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+header a {
+    color: var(--tertiary-color);
+}
+
+footer {
+    background: var(--primary-color);
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--secondary-color);
+    width: 100%;
+    padding: 10px 30px;
+}
+
+/* Hero Style Start */
+.hero {
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hero h3 {
+    font-size: 55px;
+    color: var(--tertiary-color);
+    border: 3px solid var(--primary-color);
+    padding:20px;
+    width: 40%;
+    margin: 3.5%;
+    position: absolute;
+    
+}
+
+/* About Me Style Start*/
+section {
+    padding: 60px;
+}
+
+
+/*
+  /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other 
+  @media screen and (max-width: 600px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+
+  /* If screen size is more than 600px wide, set the font-size of <div> to 80px 
+@media screen and (min-width: 600px) {
+    div.example {
+      font-size: 80px;
+    }
+  }
+  
+  /* If screen size is 600px wide, or less, set the font-size of <div> to 30px 
+  @media screen and (max-width: 600px) {
+    div.example {
+      font-size: 30px;
+    }
+  } 
+*/
